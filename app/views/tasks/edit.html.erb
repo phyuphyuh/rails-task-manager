@@ -1,0 +1,8 @@
+<div class="container mt-3">
+  <h2>Edit Task</h2>
+  <%= render "form",task: @task %>
+  <hr>
+  <%= link_to tasks_path, class: 'text-decoration-none' do %>
+    <i class="fa-solid fa-rotate-left"></i><span> Back to list</span>
+  <% end %>
+</div>
